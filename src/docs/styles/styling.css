@@ -1,0 +1,23 @@
+/* square buttons */
+.styling-example .rec.rec-arrow {
+    border-radius: 0;
+}
+
+/* round buttons on hover */
+.styling-example .rec.rec-arrow:hover {
+    border-radius: 50%;
+}
+/* hide disabled buttons */
+.styling-example .rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+/* disable default outline on focused items */
+/* add custom outline on focused items */
+.rec.rec-dot {
+    background: #ff4343;
+    border: 2px #333 solid;
+    border-radius: 0;
+  }
+  .rec.rec-dot_active {
+    background: #59fd59;
+  }
